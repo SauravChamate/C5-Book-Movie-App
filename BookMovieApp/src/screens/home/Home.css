@@ -1,0 +1,71 @@
+/* Styling heading of upcoming movies */
+.heading-upcoming-movies {
+    background: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Styling of movie poster in grid tiles */
+.poster-of-movies {
+    height: 100%;
+    width: auto;
+}
+
+/* Styling of element - Grid of released movies along with filters */
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin: 16px;
+}
+
+.left-of-flex-container {
+    width: 76%;
+    margin: 16px;
+}
+
+.right-of-flex-container {
+    padding-top: 20px;
+    width: 24%;
+    margin: 16px;
+}
+
+.released-movie-tile {
+    margin: 16px;
+}
+
+/* Additional styling of scroll-bar for upcoming movies grid */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
+@media (max-width: 992px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .left-of-flex-container {
+        width: 100%;
+    }
+    .right-of-flex-container {
+        width: 90%;
+    }
+    .released-movie-tile {
+        margin: 8px;
+    }
+}
