@@ -1,0 +1,46 @@
+.header-movies-app {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+/* Logo */
+.logo-movies-app {
+    background: #ff7f7f;
+    height: 35px;
+    animation: rotate-by-resizing-app-logo infinite 8s linear;
+    float: left;
+}
+
+@keyframes rotate-by-resizing-app-logo {
+    from {transform: scaleX(-1);}
+}
+
+.button-login-at-header {
+    float: right;
+}
+
+.button-logout-at-header {
+    float: right;
+}
+
+.button-book-show {
+    float: right;
+    margin-right: 8px;
+}
+
+.tabs-registration-login {
+    margin-bottom: 20px;
+}
+
+.displayOff {
+    display: none;
+}
+
+.displayOn {
+    display: block;
+}
+
+.highlight-error-in-red {
+    color: red;
+}
